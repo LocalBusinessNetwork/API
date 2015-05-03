@@ -1,0 +1,5 @@
+<html>
+<div> $data.getString("from_name") </div>
+<div> $data.getString("from_title") </div>
+<div> $data.getString("from_company") </div>
+</html>

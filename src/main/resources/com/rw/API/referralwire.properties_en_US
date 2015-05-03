@@ -1,0 +1,28 @@
+# local mode
+public.cfb=http://localhost:8080/rwCFB
+public.oonr=http://localhost:8080/rwCFB
+public.root=http://localhost:8080
+ses_mode=local
+#S3BucketName=local
+
+# staging mode
+#public.cfb=http://www.referralwiretest.biz/rwCFB
+#public.oonr=http://www.referralwiretest.biz/rwCFB
+#public.root=http://www.referralwiretest.biz
+#ses_mode=staging
+#ses_recipient=peter.thorson@gmail.com
+#S3BucketName=ReferralWireTest
+#ses_recipient=noreply@referralwire.com
+#ses_recipient=support@successfulthinkersnetwork.com
+
+# production model
+#ses_mode=production
+#public.cfb=https://www.referralwire.com/rwCFB
+#public.oonr=https://www.referralwire.com/rwCFB
+#public.root=https://www.referralwire.com
+#S3BucketName=ReferralWire
+S3ROOT=https://s3.amazonaws.com/
+
+# common
+#enrichment_mode=skip
+enrichment_mode=run

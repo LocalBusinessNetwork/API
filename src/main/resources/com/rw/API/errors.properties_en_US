@@ -1,0 +1,29 @@
+USERNAME_NOT_FOUND=User not found.
+USERNAME_EXISTS=Username {0} already exists.
+USERNAME_CONTAINS_INVALID_CHARS=Username {0} contains invalid characters {1}.
+USERNAME_LOGGEDIN={0} Logged In.
+USERNAME_INCORRECTPASSWORD=Incorrect Password
+NOAPI=API - {0} - does not exist 
+RECORD_NOTFOUND=No Data found for this request
+USERNAME_DELETED=Username {0} DELETED.
+RECORD_EXISTS=This record already exists
+CFB_EMAILTEMPLATE = Hi {0}, \n\n\
+				Recently, {1} shared your contact information with {2} regarding an opportunity to serve you. \n\
+				{3} would like your input on whether to refer additional clients to {4}.\n\n\
+				Please click on the link below to fill out a short feedback form.\n\n\
+				{5}?cfbToken={6}\n\n\
+				thank you.\n\
+				- ReferralWire Team.\n
+CFB_EMAILTEMPLATE_SUBJECT = Followup question from {0}					 
+CFB_EMAILTEMPLATE_MESSAGE =  <p>Hi {0},<p>\
+			I recently shared your contact information with my colleague, {1} at {2}. \
+			I hope {3} has been able to contact you and be of service. \
+			Please let me know confidentially if you think I should refer other clients and contacts to {3} \
+			by clicking this link: <p><br>\
+			<a href="{4}?type=1&token={5}">I recommend {3}</a><p><br>\
+			If you have any questions, reservations or concerns, please do not hesitate to send me an \
+			email directly at <a href="mailto:{6}">{6}</a> or by calling me at <a href="tel:{7}">{7}</a>.<p>\
+			Thank you for your feedback! <p>\
+			Sincerely,<br>\
+			{8}
+
